@@ -1,0 +1,152 @@
+@charset "UTF-8";
+body {
+    color: #E8CA8D;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 40px;
+    background-image: url("blogpictures%27nlogo/sea_background_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+		}
+/*Float the Aside so it displays next to the Main.*/
+
+#container{
+    width: 788px;
+    height: auto;
+    background-color: rgba(254,235,224,1.00);
+    margin: auto;
+}
+
+aside {
+    width: 150px;
+    height: 1740px;
+    background-color: #03485C;
+    float: left;
+}
+
+header {
+    width: 789px;
+    height: 250px;
+    background-color: green;
+    background-image: url("blogpictures%27nlogo/new_wave_logo8762-01.png");
+	/*background-image: url(blogpictures%27nlogo/drive-download-20220209T154313Z-001/header.jpg);*/
+	
+}
+
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line up with the header.*/
+
+main {
+    width: 598px;
+    height: 1700px;
+    background-color: #66888F;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+h1 {
+    color: #03485C;
+	font-family: tensentype-jinzhuanheijf,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24pt;
+		}
+	
+p {
+    font-family: rustica,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+footer {
+    width: 788px;
+    height: 50px;
+    background-color: #03485C;
+    clear: both;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+img   {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft{
+	float: left;
+}
+
+article {
+    margin-bottom: 30px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 60px;
+    margin-right: 65px;
+	font-family: amboy-inline, sans-serif;
+	font-size: 20pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 500px;
+}
+
+
+nav a:link {
+    color: #0380A6;
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    color: #03222A;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+	background-color: #0380A6;
+	padding: 10px;
+	border-radious: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #E8CA8D;
+	
+}  
+.submit_btn {
+    width: 160px;
+    background-color: #03485C;
+    border-radius: 10px;
+    color: #FFFFFF;
+    height: 30px;
+    font-size: 16px;
+	
+}
+.submit_btn:hover{
+	-webkit-box-shadow: 6px 6px 35px 1px #03222A;
+    box-shadow: 6px 6px 35px 1px #03222A;
+}
+
